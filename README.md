@@ -13,7 +13,9 @@ Sorry
 You have to use Firefox Nightly and add a custom addon list as of writing and then you can install the script as you would on a computer
 
 # Computer:
-Install voilmentmonkey and then install the script. Either host your own server (the server owner can see how many users there are and what sites they are using as well as where they are) or use the one I provide: `https://api.phma.dev/WhereWasI`. Put the link to the server as the `SERVER_URL` in the script. Choose a username and set that as the `USER` in the script. Remember to use the same username on all of your devices and choose something unique and hard to guess, as anyone with it can get where you were. Please only use [a-zA-Z0-9] for the username. Other characters might not be supported. As stated before, if abused, it will be shut down.
+Install violentmonkey and then install the script. Either host your own server (the server owner can see how many users there are and what sites they are using as well as where they are) or use the one I provide: `https://api.phma.dev/WhereWasI`. Put the link to the server as the `SERVER_URL` in the script. Choose a username and set that as the `USER` in the script. Remember to use the same username on all of your devices and choose something unique and hard to guess, as anyone with it can get where you were. Please only use [a-zA-Z0-9] for the username. Other characters might not be supported. As stated before, if abused, it will be shut down.
+
+Add the sites you want with @match lines and remove all other text from that line.
 
 It is not by any means perfect, sometimes you might have to reload the page for it to load correctly.
 
